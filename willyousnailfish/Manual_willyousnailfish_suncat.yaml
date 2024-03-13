@@ -1,0 +1,148 @@
+﻿# Expectations before starting the manual:
+# You have beaten the game, unlocked all levels, and know how to collect all
+#springs and exploration points. The logic expects that you'll be able to
+#collect some checks in multiple ways, so be prepared to figure out some work-
+#-arounds using Intentional Bug and water pump
+# 
+# Starting state:
+# Either a completed game, or a new file + enable Exploration mode in Settings->
+#->Gameplay->Assist Features.
+#
+# Rules of the manual:
+# All levels are closed behind doors. All those doors and most vanilla doors are
+#locked with Locks, which you have to unlock using Keys (including the door in
+#the Level Select area) You start with a single Key, which also marks which
+#level/area you are starting from. Your game abilities are now limited by the
+#knowledge of a new player - you can't use the Intentional Bug before you read
+#about it in the Spring that explains it! Also, all springs are intangible and
+#have no information you can read from them, and you can't even use them as
+#trampolines. And all exploration points and guns are gone from the world. But at
+#least you can now collect AP items from every Lock, Exploration point, Spring
+#location, and even all the sea critters that exist in this game!
+# Optional limitation: Play from a new file+Exploration mode, and set Automatic
+#Difficulity to ON. Don't turn it off and don't change the difficulty until you 
+#receive Spring 50.
+#
+# Fish goal: Collect all sea critters from the multiworld!
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Manual_willyousnailfish_suncat Template
+
+game: Manual_willyousnailfish_suncat
+requires:
+  version: 0.4.4 # Version of Archipelago required for this yaml to work as expected.
+
+Manual_willyousnailfish_suncat:
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 50 # equivalent to 0
+    normal: 0 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # Locations: ensure everything can be reached and acquired.
+    # Items: ensure all logically relevant items can be acquired.
+    # Minimal: ensure what is needed to reach your goal can be acquired.
+    locations: 0
+    items: 50
+    minimal: 0
+
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with these items.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the !hint command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the !hint command
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  filler_traps:
+    # How many fillers will be replaced with traps. 0 means no additional traps, 100 means all fillers are traps.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+    # don't change the values afterwards if you want to keep the check count within the rules!
+
+  add_underwater_levels:
+    # Should items/locations linked to this option be enabled?
+    false: 0
+    true: 50
+
+  add_dry_levels:
+    # Should items/locations linked to this option be enabled?
+    false: 50
+    true: 0
+
+  add_fishing:
+    # Should items/locations linked to this option be enabled?
+    false: 0
+    true: 50
+
+  add_exploration_points:
+    # Should items/locations linked to this option be enabled?
+    false: 50
+    true: 0
+
+  springs_and_ep_goal:
+    # Should items/locations linked to this option be enabled?
+    false: 50
+    true: 0
+
+  springs_goal:
+    # Should items/locations linked to this option be enabled?
+    false: 50
+    true: 0
+
+  ep_goal:
+    # Should items/locations linked to this option be enabled?
+    false: 50
+    true: 0
+
+  fishing_goal:
+    # Should items/locations linked to this option be enabled?
+    false: 0
+    true: 50
+
+  springs_ep_and_fishing_goal:
+    # Should items/locations linked to this option be enabled?
+    false: 50
+    true: 0
