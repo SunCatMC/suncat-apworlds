@@ -2,11 +2,9 @@
 # Expectations:
 # The game starts from clear save. Don't buy upgrades you don't have AP items for.
 #
-# The logic expects that you need 1 reel speed upgrade for each 3 line lengths upgrades,
+# The logic expects that you need 1 reel speed upgrade for each 10 line lengths upgrades,
 #but you can ignore that requirement during actual gameplay.
-# 
-# Base goal - collect all AP fish items, and catch the in-game Sun
-# Logic goal - collect all AP fish items, Reel speeds (15) and Line lengths (50) 
+#
 name: Player{number}
 
 # Used to describe your yaml. Useful if you have multiple files.
@@ -14,11 +12,13 @@ description: Default Manual_beneaththesurface_suncat Template
 
 game: Manual_beneaththesurface_suncat
 requires:
-  version: 0.4.4 # Version of Archipelago required for this yaml to work as expected.
+  version: 0.5.0 # Version of Archipelago required for this yaml to work as expected.
 
 Manual_beneaththesurface_suncat:
+  # Game Options
   progression_balancing:
     # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
     # A lower setting means more getting stuck. A higher setting means less getting stuck.
     #
     # You can define additional values between the minimum and maximum values.
@@ -33,13 +33,23 @@ Manual_beneaththesurface_suncat:
 
   accessibility:
     # Set rules for reachability of your items/locations.
-    # Locations: ensure everything can be reached and acquired.
-    # Items: ensure all logically relevant items can be acquired.
-    # Minimal: ensure what is needed to reach your goal can be acquired.
+    # 
+    # - **Locations:** ensure everything can be reached and acquired.
+    # - **Items:** ensure all logically relevant items can be acquired.
+    # - **Minimal:** ensure what is needed to reach your goal can be acquired.
     locations: 0
     items: 50
     minimal: 0
 
+  goal:
+    # Choose your victory condition.
+    caught all fish: 0
+    caught both suns: 0 # requires The Sun?.., catching Sun in-game, 45 line length upgrades and 5 reel speed upgrades
+    caught both suns and all fish: 50
+    caught the game: 0 # requires catching the edge of the game itself, 50 line length upgrades and 5 reel speed upgrades
+    caught the game and all fish: 0
+
+  # Item & Location Options
   local_items:
     # Forces these items to be in their native world.
     []
@@ -53,19 +63,19 @@ Manual_beneaththesurface_suncat:
     {}
 
   start_hints:
-    # Start with these item's locations prefilled into the !hint command.
+    # Start with these item's locations prefilled into the ``!hint`` command.
     []
 
   start_location_hints:
-    # Start with these locations and their item prefilled into the !hint command
+    # Start with these locations and their item prefilled into the ``!hint`` command.
     []
 
   exclude_locations:
-    # Prevent these locations from having an important item
+    # Prevent these locations from having an important item.
     []
 
   priority_locations:
-    # Prevent these locations from having an unimportant item
+    # Prevent these locations from having an unimportant item.
     []
 
   item_links:

@@ -1,0 +1,180 @@
+[ 
+    { 
+        "name": "Progressive Hook Type",
+		"count": 5,
+        "category": ["Upgrades"],
+        "useful": true 
+    },
+    { 
+        "name": "Reel Speed +1m/s",
+		"count": 15,
+        "category": ["Upgrades"],
+        "progression": true 
+    },
+	{ 
+        "name": "Line Length +5m",
+		"count": 50,
+        "category": ["Upgrades"],
+        "progression": true 
+    },
+	{ 
+        "name": "Tackle Box",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Pond Skimmer",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Old Boot",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Anchovy",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Blowfish",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Arctic Salmon",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Sea Sponge",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Radio",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Everpregnant Guppy",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Arctic Carp",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Strange Head",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Rainbow Trout",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Ankh-chovy",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Walrus",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Golden Guppy",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Strange Disk",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Sahagin Shell",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Rubber Ducky",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Deep Sea Jelly",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Casette",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Strange Device",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Device Part",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Vampirotoothus",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Strange Hat",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Hatchery Tank",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Moray Eel",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Lantern Fish",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "???",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Ice Cube",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Old Locket",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "Arctic Tern",
+        "category": ["Fish"],
+        "progression": true
+    },
+	{ 
+        "name": "The... Sun?",
+        "category": ["Fish"],
+        "progression": true
+    }
+]

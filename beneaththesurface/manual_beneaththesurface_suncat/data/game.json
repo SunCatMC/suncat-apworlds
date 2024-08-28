@@ -1,0 +1,26 @@
+{
+  "game": "beneaththesurface",
+  "creator": "suncat",
+  "filler_item_name": "Dollar",
+  "starting_items": [
+    {
+      "items": [
+        "Progressive Hook Type"
+      ],
+	  "random": 1
+    },
+	{
+      "items": [
+        "Reel Speed +1m/s"
+      ],
+	  "random": 1
+    },
+	{
+      "items": [
+        "Line Length +5m"
+      ],
+	  "random": 1
+    }
+  ],
+  "death_link": false
+}

@@ -1,0 +1,432 @@
+[
+	{ 
+        "name": "Tackle Box - 1", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "Tackle Box - 2", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "Tackle Box - 3", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+    { 
+        "name": "0-2.5m Pond Skimmer", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "0-2.5m Old Boot", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "2.5m-7.5m Old Boot", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "7.5m-10m Old Boot", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:2|"
+    },
+	{ 
+        "name": "2.5-7.5m Anchovy", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "7.5-10m Anchovy", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:2|"
+    },
+	{ 
+        "name": "10-12.5m Anchovy", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:2|"
+    },
+	{ 
+        "name": "12.5-15m Anchovy", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:3|"
+    },
+	{ 
+        "name": "7.5-10m Blowfish", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:2|"
+    },
+	{ 
+        "name": "10-12.5m Blowfish - 2", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:2|"
+    },
+	{ 
+        "name": "12.5-15m Blowfish - 2", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:3|"
+    },
+	{ 
+        "name": "15-20m Blowfish - 3", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:3|"
+    },
+	{ 
+        "name": "7.5-10m Arctic Salmon", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:2|"
+    },
+	{ 
+        "name": "10-12.5m Arctic Salmon", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:2|"
+    },
+	{ 
+        "name": "12.5-15m Arctic Salmon", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:3|"
+    },
+	{ 
+        "name": "15-20m Arctic Salmon", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:3|"
+    },
+	{ 
+        "name": "20-25m Arctic Salmon", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:4|"
+    },
+	{ 
+        "name": "25-30m Arctic Salmon", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:5|"
+    },
+	{ 
+        "name": "12.5-15m Sea Sponge", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:3|"
+    },
+	{ 
+        "name": "15-20m Sea Sponge", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:3|"
+    },
+	{ 
+        "name": "20-25m Sea Sponge", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:4|"
+    },
+	{ 
+        "name": "15-20m Radio", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:3|"
+    },
+	{ 
+        "name": "20-25m Radio", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:4|"
+    },
+	{ 
+        "name": "25-30m Radio", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:5|"
+    },
+	{ 
+        "name": "30-35m Radio", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:6|"
+    },
+	{ 
+        "name": "25-30m Everpregnant Guppy",
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:5|"
+    },
+	{ 
+        "name": "30-35m Everpregnant Guppy",
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:6|"
+    },
+	{ 
+        "name": "35-40m Everpregnant Guppy",
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:7|"
+    },
+	{ 
+        "name": "30-35m Arctic Carp",
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:6|"
+    },
+	{ 
+        "name": "35-40m Arctic Carp", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:7|"
+    },
+	{ 
+        "name": "40-45m Arctic Carp - 3", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:8|"
+    },
+	{ 
+        "name": "31-35m Strange Head", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:7|"
+    },
+	{ 
+        "name": "35-40m Strange Head", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:7|"
+    },
+	{ 
+        "name": "35-40m Rainbow Trout", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:7|"
+    },
+	{ 
+        "name": "40-45m Rainbow Trout", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:8|"
+    },
+	{ 
+        "name": "45-50m Rainbow Trout", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:9|"
+    },
+		{ 
+        "name": "50-70m Rainbow Trout", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:10| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "70-80m Rainbow Trout", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:14| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "45-50m Ankh-chovy", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:9|"
+    },
+	{ 
+        "name": "50-70m Ankh-chovy", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:10|"
+    },
+	{ 
+        "name": "50-70m Golden Guppy", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:10|"
+    },
+	{ 
+        "name": "70-75m Golden Guppy", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:14| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "56-57m Strange Disk", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:12| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "70-75m Walrus", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:14| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "75-90m Walrus", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:15| AND |Reel Speed +1m/s:2|"
+    },
+		{ 
+        "name": "90-100m Walrus", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:18| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "75-90m Sahagin Shell", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:15| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "90-100m Sahagin Shell", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:18| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "90-100m Rubber Ducky", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:18| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "100-110m Deep Sea Jelly", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:20| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "110-150m Deep Sea Jelly", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:22| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "101-110m Casette", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:21| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "110-120m Casette", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:22| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "120-150m Casette", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:24| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "110-120m Strange Device", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:22| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "120-150m Strange Device", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:24| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "150-175m Strange Device", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:30| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "175-200m Strange Device", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:35| AND |Reel Speed +1m/s:4|"
+    },
+	{ 
+        "name": "120-150m Device Part", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:24| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "150-175m Device Part", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:30| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "175-200m Device Part", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:35| AND |Reel Speed +1m/s:4|"
+    },
+	{ 
+        "name": "125-150m Vampirotoothus", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:25| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "150-175m Vampirotoothus", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:30| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "125-150m Strange Hat", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:25| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "150-175m Strange Hat", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:30| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "130-150m Hatchery Tank", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:26| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "150-175m Hatchery Tank", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:30| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "175-200m Hatchery Tank", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:35| AND |Reel Speed +1m/s:4|"
+    },
+	{ 
+        "name": "150-175m Moray Eel", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:30| AND |Reel Speed +1m/s:3|"
+    },
+	{ 
+        "name": "175-190m Moray Eel", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:35| AND |Reel Speed +1m/s:4|"
+    },
+	{ 
+        "name": "175-200m Lantern Fish", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:35| AND |Reel Speed +1m/s:4|"
+    },
+	{ 
+        "name": "200-225m ???", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:40| AND |Reel Speed +1m/s:4|"
+    },
+	{ 
+        "name": "200-225m Ice Cube", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:40| AND |Reel Speed +1m/s:4|"
+    },
+	{ 
+        "name": "225-250m Ice Cube", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:45| AND |Reel Speed +1m/s:5|"
+    },
+	{ 
+        "name": "225-250m Old Locket", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:45| AND |Reel Speed +1m/s:5|"
+    },
+	{ 
+        "name": "225-250m Arctic Tern", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:45| AND |Reel Speed +1m/s:5|"
+    },
+	{ 
+        "name": "225-250m The... Sun?", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:45| AND |Reel Speed +1m/s:5|"
+    },
+    {
+        "name": "Caught all fish",
+		"victory": true,
+        "category": ["Goal"],
+        "requires": "|@Fish:ALL|"
+    },
+	{
+        "name": "Caught both Suns",
+		"victory": true,
+        "category": ["Goal"],
+        "requires": "|The... Sun?| AND |Line Length +5m:45| AND |Reel Speed +1m/s:5|"
+    },
+	{
+		"name": "Caught both Suns and all Fish",
+		"victory": true,
+        "category": ["Goal"],
+        "requires": "|@Fish:ALL| AND |The... Sun?| AND |Line Length +5m:45| AND |Reel Speed +1m/s:5|"
+	},
+	{
+        "name": "Caught the Game",
+        "victory": true,
+        "category": ["Goal"],
+        "requires": "|Line Length +5m:50| AND |Reel Speed +1m/s:5|"
+    },
+	{
+        "name": "Caught the Game and all Fish",
+        "victory": true,
+        "category": ["Goal"],
+        "requires": "|@Fish:ALL| AND |Line Length +5m:50| AND |Reel Speed +1m/s:5|"
+    }
+]
