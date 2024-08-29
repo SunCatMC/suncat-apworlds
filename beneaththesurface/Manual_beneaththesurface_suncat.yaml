@@ -44,7 +44,7 @@ Manual_beneaththesurface_suncat:
   goal:
     # Choose your victory condition.
     caught all fish: 0
-    caught both suns: 0 # requires The Sun?.., catching Sun in-game, 45 line length upgrades and 5 reel speed upgrades
+    caught both suns: 0 # requires The... Sun?, catching Sun in-game, 45 line length upgrades and 5 reel speed upgrades
     caught both suns and all fish: 50
     caught the game: 0 # requires catching the edge of the game itself, 50 line length upgrades and 5 reel speed upgrades
     caught the game and all fish: 0

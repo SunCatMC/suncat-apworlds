@@ -112,9 +112,9 @@ def before_create_item(item_name: str, world: World, multiworld: MultiWorld, pla
 
 # The item that was created is provided after creation, in case you want to modify the item
 def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, player: int) -> ManualItem:
-    if "fish" not in str(world.options.goal):
+    if "All Fish" not in str(world.options.goal):
         json_item = next(n for n in world.item_table if n["name"] == item.name)
-        if "all fish" in json_item["category"]:
+        if "Fish" in json_item["category"] and not (item.name == "The... Sun?" and "Both Suns" in str(world.options.goal)):
             item.classification = ItemClassification.filler
     return item
 
