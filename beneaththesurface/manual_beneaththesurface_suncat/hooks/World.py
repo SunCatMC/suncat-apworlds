@@ -1,6 +1,6 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
-from BaseClasses import MultiWorld, CollectionState
+from BaseClasses import MultiWorld, CollectionState, ItemClassification
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -112,7 +112,10 @@ def before_create_item(item_name: str, world: World, multiworld: MultiWorld, pla
 
 # The item that was created is provided after creation, in case you want to modify the item
 def after_create_item(item: ManualItem, world: World, multiworld: MultiWorld, player: int) -> ManualItem:
-    
+    if "fish" not in str(world.options.goal):
+        json_item = next(n for n in world.item_table if n["name"] == item.name)
+        if "all fish" in json_item["category"]:
+            item.classification = ItemClassification.filler
     return item
 
 # This method is run towards the end of pre-generation, before the place_item options have been handled and before AP generation occurs

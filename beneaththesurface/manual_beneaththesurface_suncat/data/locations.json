@@ -1,21 +1,36 @@
 [
 	{ 
-        "name": "Tackle Box - 1", 
-        "category": ["Fish"],
-        "requires": ""
-    },
-	{ 
-        "name": "Tackle Box - 2", 
-        "category": ["Fish"],
-        "requires": ""
-    },
-	{ 
-        "name": "Tackle Box - 3", 
+        "name": "Tackle Box", 
         "category": ["Fish"],
         "requires": ""
     },
     { 
-        "name": "0-2.5m Pond Skimmer", 
+        "name": "0-2.5m Pond Skimmer - 1", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "0-2.5m Pond Skimmer - 2", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "0-2.5m Pond Skimmer - 3", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "0-2.5m Pond Skimmer - 4", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "0-2.5m Pond Skimmer - 5", 
+        "category": ["Fish"],
+        "requires": ""
+    },
+	{ 
+        "name": "0-2.5m Pond Skimmer - 6", 
         "category": ["Fish"],
         "requires": ""
     },
@@ -145,9 +160,14 @@
 		"requires": "|Line Length +5m:5|"
     },
 	{ 
-        "name": "30-35m Everpregnant Guppy",
+        "name": "30-31m Everpregnant Guppy",
         "category": ["Fish"],
         "requires": "|Line Length +5m:6|"
+    },
+	{ 
+        "name": "31-35m Everpregnant Guppy",
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:7|"
     },
 	{ 
         "name": "35-40m Everpregnant Guppy",
@@ -155,9 +175,14 @@
         "requires": "|Line Length +5m:7|"
     },
 	{ 
-        "name": "30-35m Arctic Carp",
+        "name": "30-31m Arctic Carp",
         "category": ["Fish"],
 		"requires": "|Line Length +5m:6|"
+    },
+	{ 
+        "name": "31-35m Arctic Carp",
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:7|"
     },
 	{ 
         "name": "35-40m Arctic Carp", 
@@ -194,10 +219,20 @@
         "category": ["Fish"],
         "requires": "|Line Length +5m:9|"
     },
-		{ 
-        "name": "50-70m Rainbow Trout", 
+	{ 
+        "name": "50-56m Rainbow Trout", 
         "category": ["Fish"],
-        "requires": "|Line Length +5m:10| AND |Reel Speed +1m/s:2|"
+        "requires": "|Line Length +5m:10|"
+    },
+	{ 
+        "name": "56-57m Rainbow Trout", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:12| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "57-70m Rainbow Trout", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:12| AND |Reel Speed +1m/s:2|"
     },
 	{ 
         "name": "70-80m Rainbow Trout", 
@@ -210,14 +245,34 @@
 		"requires": "|Line Length +5m:9|"
     },
 	{ 
-        "name": "50-70m Ankh-chovy", 
+        "name": "50-56m Ankh-chovy", 
         "category": ["Fish"],
         "requires": "|Line Length +5m:10|"
     },
 	{ 
-        "name": "50-70m Golden Guppy", 
+        "name": "56-57m Ankh-chovy", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:12| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "57-70m Ankh-chovy", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:12| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "50-56m Golden Guppy", 
         "category": ["Fish"],
 		"requires": "|Line Length +5m:10|"
+    },
+	{ 
+        "name": "56-57m Golden Guppy", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:12| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "57-70m Golden Guppy", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:12| AND |Reel Speed +1m/s:2|"
     },
 	{ 
         "name": "70-75m Golden Guppy", 
@@ -260,9 +315,14 @@
 		"requires": "|Line Length +5m:18| AND |Reel Speed +1m/s:2|"
     },
 	{ 
-        "name": "100-110m Deep Sea Jelly", 
+        "name": "100-101m Deep Sea Jelly", 
         "category": ["Fish"],
-		"requires": "|Line Length +5m:20| AND |Reel Speed +1m/s:3|"
+		"requires": "|Line Length +5m:20| AND |Reel Speed +1m/s:2|"
+    },
+	{ 
+        "name": "101-110m Deep Sea Jelly", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:21| AND |Reel Speed +1m/s:3|"
     },
 	{ 
         "name": "110-150m Deep Sea Jelly", 
@@ -300,9 +360,14 @@
         "requires": "|Line Length +5m:30| AND |Reel Speed +1m/s:3|"
     },
 	{ 
-        "name": "175-200m Strange Device", 
+        "name": "175-190m Strange Device", 
         "category": ["Fish"],
         "requires": "|Line Length +5m:35| AND |Reel Speed +1m/s:4|"
+    },
+	{ 
+        "name": "190-200m Strange Device", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:38| AND |Reel Speed +1m/s:4|"
     },
 	{ 
         "name": "120-150m Device Part", 
@@ -350,9 +415,14 @@
         "requires": "|Line Length +5m:30| AND |Reel Speed +1m/s:3|"
     },
 	{ 
-        "name": "175-200m Hatchery Tank", 
+        "name": "175-190m Hatchery Tank", 
         "category": ["Fish"],
         "requires": "|Line Length +5m:35| AND |Reel Speed +1m/s:4|"
+    },
+	{ 
+        "name": "190-200m Hatchery Tank", 
+        "category": ["Fish"],
+        "requires": "|Line Length +5m:38| AND |Reel Speed +1m/s:4|"
     },
 	{ 
         "name": "150-175m Moray Eel", 
@@ -365,9 +435,14 @@
         "requires": "|Line Length +5m:35| AND |Reel Speed +1m/s:4|"
     },
 	{ 
-        "name": "175-200m Lantern Fish", 
+        "name": "175-190m Lantern Fish", 
         "category": ["Fish"],
 		"requires": "|Line Length +5m:35| AND |Reel Speed +1m/s:4|"
+    },
+	{ 
+        "name": "190-200m Lantern Fish", 
+        "category": ["Fish"],
+		"requires": "|Line Length +5m:38| AND |Reel Speed +1m/s:4|"
     },
 	{ 
         "name": "200-225m ???", 
