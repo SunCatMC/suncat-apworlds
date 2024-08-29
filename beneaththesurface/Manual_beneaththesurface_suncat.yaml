@@ -5,6 +5,9 @@
 # The logic expects that you need 1 reel speed upgrade for each 10 line lengths upgrades,
 #but you can ignore that requirement during actual gameplay.
 #
+# Locations with numbers at the end mean that you get them with that count of the specific
+#fish caught
+#
 name: Player{number}
 
 # Used to describe your yaml. Useful if you have multiple files.
